@@ -6,10 +6,10 @@ import json
 import os
 import sys
 from datetime import date
-
+from dotenv import load_dotenv
 import openai
 import tiktoken
-
+load_dotenv()
 ENGINE = "text-chat-davinci-002-20221122"
 
 ENCODER = tiktoken.get_encoding("gpt2")
@@ -31,7 +31,7 @@ class Chatbot:
         """
         Initialize Chatbot with API key (from https://platform.openai.com/account/api-keys)
         """
-        openai.api_key = os.environ["otoken"]
+        openai.api_key = os.getenv("otoken")
         self.conversations = Conversation()
         self.prompt = Prompt(buffer=buffer)
         self.engine = engine or ENGINE
