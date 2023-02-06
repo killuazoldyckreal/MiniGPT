@@ -1,6 +1,8 @@
 MiniGPT
 ==========
-
+.. image:: https://i.imgur.com/gDv9BoO.png
+   :alt: MiniGPT
+   
 .. image:: https://discord.com/api/guilds/1048677067719454800/embed.png
    :target: https://discord.gg/W2nbY5suHZ
    :alt: Discord server invite
