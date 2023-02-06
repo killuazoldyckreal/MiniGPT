@@ -1,0 +1,4 @@
+nextcord
+openai
+tiktoken
+pre-commit
