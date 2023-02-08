@@ -3,3 +3,4 @@ openai
 tiktoken
 pre-commit
 Flask
+dotenv
